@@ -37,13 +37,6 @@ app.get('/generateImg', (req, res) => {
                     : 'There was an issue on the server'
                 })
         })
-
-        // return res.status(400).json({
-        //     success: false,
-        //     error: error.response
-        //         ? error.response.data
-        //         : "There was a issue on the server"
-        // })
 })
 
 app.get('/accuracy', async (req, res) => {
